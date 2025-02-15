@@ -1,10 +1,12 @@
 import os
-
+import autogen
 from autogen import ConversableAgent
+
+config_list = autogen .config_list_from_json(env_or_file="connections\OAI_CONFIG_LIST")
 
 agent = ConversableAgent(
     "chatbot",
-    llm_config={"config_list": [{"model": "gpt-4", "api_key": }]},
+    llm_config={"config_list": [{}]},
     code_execution_config=False,  # Turn off code execution, by default it is off.
     function_map=None,  # No registered functions, by default it is None.
     human_input_mode="NEVER",  # Never ask for human input.
