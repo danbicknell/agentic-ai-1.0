@@ -1,0 +1,1 @@
+name="UserProxy", code_execution_config={"work_dir": "results", "use_docker": False}
