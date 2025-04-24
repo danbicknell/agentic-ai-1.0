@@ -15,6 +15,7 @@ source .venv/Scripts/activate
 
     Just run activate, without an extension, so the right file will get used regardless of whether you're using cmd.exe or PowerShell.
 
+.venv/Scripts/activate
 
 ## Deactivate the virtual environment
 deactivate
