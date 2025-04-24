@@ -1,3 +1,4 @@
 connections
 venv
-.venv.env
+.venv
+.env

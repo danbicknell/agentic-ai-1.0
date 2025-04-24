@@ -28,6 +28,7 @@ py -m pip freeze > filename.txt
 
 ## .gitignore:
 .venv
+.env
 
 
 ## Local environment variables (for storing secrets that should not be checked into Github):
