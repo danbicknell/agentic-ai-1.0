@@ -52,4 +52,8 @@ Folder:  .env
     os.getenv("open_oi_api_key")
 
 
+# Autogen
+
+https://microsoft.github.io/autogen/stable//index.html
+
 
