@@ -32,10 +32,24 @@ py -m pip freeze > filename.txt
 
 
 ## Local environment variables (for storing secrets that should not be checked into Github):
+https://pypi.org/project/python-dotenv/
 Folder:  .env
 
-    ### Code to Loaddir
+    ### Code to Load dir
+    pip install python-dotenv
     from dotenv import load_dotenv
     load_dotenv() -- loads variables in the .env file
+
+    from dotenv import load_dotenv
+
+    load_dotenv()  # take environment variables
+
+    # Code of your application, which uses environment variables (e.g. from `os.environ` or
+    # `os.getenv`) as if they came from the actual environment.
+
+    # to retrieve the variable
+    import os
+    os.getenv("open_oi_api_key")
+
 
 
