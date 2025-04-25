@@ -4,7 +4,7 @@ Initial Experiments with Agentic AI
 
 # VENV
 ## Create the virtual environment folder:
-py - m venv .venv 
+py -m venv .venv 
 
 ## Activate the virtual environment:
 source .venv/Scripts/activate
@@ -25,6 +25,9 @@ py - m pip list
 
 ## Place pip dependencies or requirements into a text file:
 py -m pip freeze > filename.txt
+
+# install files from a list in a text file
+pip install -r pip_install.txt
 
 ## .gitignore:
 .venv
