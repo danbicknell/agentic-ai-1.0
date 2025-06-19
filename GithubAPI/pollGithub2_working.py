@@ -1,12 +1,15 @@
 import requests
 import os
 
+from dotenv import load_dotenv
+
 # Replace with your repository owner and name
 owner = "danbicknell"
 repo = "agentic-ai-1.0"
 
 # Replace with your GitHub API token
-token = os.environ.get("GITHUB_TOKEN")
+token = os.getenv("github_api_key")
+
 
 # Construct the API endpoint URL
 url = f"https://api.github.com/repos/{owner}/{repo}/pulls"
