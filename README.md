@@ -59,4 +59,14 @@ Folder:  .env
 
 https://microsoft.github.io/autogen/stable//index.html
 
+## Autogen Studio
 
+https://microsoft.github.io/autogen/stable//user-guide/autogenstudio-user-guide/installation.html
+
+pip install -U autogenstudio
+autogenstudio ui --port 8081
+
+This command will start the application on the specified port. Open your web browser and go to http://localhost:8081/ to use AutoGen Studio.
+
+### Set environment variable with API key
+export OPENAI_API_KEY=...key...
